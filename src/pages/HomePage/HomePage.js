@@ -1,8 +1,7 @@
 import React, { useEffect } from "react";
 import "./HomePage.css";
-import styled, { keyframes } from 'styled-components';
-
-
+import AboutSection from "./AboutSection/AboutSection";
+// import styled, { keyframes } from 'styled-components';
 
 function HomePage() {
     useEffect(() => {
@@ -11,7 +10,9 @@ function HomePage() {
 
     return (
         <>
-
+            <div className="mainPage">
+                <div className="about">{<AboutSection/>}</div>
+            </div>
         </>
     )
 }

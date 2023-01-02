@@ -1,0 +1,41 @@
+ul{
+    padding-left: 0;
+}
+
+nav {
+    background: #fde3ee;
+    align-items: center;
+    box-shadow: 4px 0px 20px -2px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    position: fixed;
+    height: 10vh;
+    width: 100vw;
+}
+
+.logo {
+    height: 10vh;
+    padding-left: 2vw;
+    float: left;
+}
+
+.links-menu {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-gap: 3vw;
+    justify-content: end ;
+    list-style: none;
+    float: right;
+    padding-right: 5vw;
+}
+
+.links a {
+    color: #702947;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.links a:hover{
+    font-weight: bold;
+}

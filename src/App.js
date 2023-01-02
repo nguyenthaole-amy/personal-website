@@ -1,8 +1,8 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import logo from "logo.png";
-import LeadingPage from "./pages/LeadingPage/LeadingPage";
-import HomePage from "./pages/HomePage/HomePage";
+// import logo from "./pages/img/logo.png";
+// import LeadingPage from "./pages/LeadingPage/LeadingPage";
+// import HomePage from "./pages/HomePage/HomePage";
 import PagesWNav from "./PagesWNav";
 
 function App() {

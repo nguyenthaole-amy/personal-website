@@ -1,18 +1,16 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import logo from "logo.png";
 import HomePage from "./pages/HomePage/HomePage";
-import Nav from "./NavBar/Nav";
+import Nav from "./components/NavBar/Nav";
 
 function PagesWNav() {
     return (
-        <BrowserRouter>
-            <Nav></Nav>
+        <React.Fragment>
+            <Nav/>
             <Routes>
-                {/*<Route path="/" element={<LeadingPage />} />*/}
-                <Route path="/" element={<HomePage />}></Route>
+                <Route path="/home" element={<HomePage />}></Route>
             </Routes>
-        </BrowserRouter>
+        </React.Fragment>
     );
 }
 

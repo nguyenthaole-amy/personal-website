@@ -1,0 +1,16 @@
+.clockContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 6vh 5vw 3vh 5vw;
+    width: 90vw;
+    height: 76vh;
+    background: #c5f767;
+}
+
+.clock {
+    font-size: 3rem;
+    font-weight: 600;
+
+}

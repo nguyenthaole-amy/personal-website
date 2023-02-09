@@ -1,9 +1,11 @@
-.container{
-    padding: 12vh 5vw 2vh 5vw;
+.about-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 12vh 5vw 0 5vw;
     width: 90vw;
-    height: 76vh;
-    overflow: hidden;
-    background: ghostwhite;
+    height: 82vh;
 }
 
 .name {

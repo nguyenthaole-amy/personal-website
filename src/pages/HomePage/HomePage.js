@@ -1,6 +1,9 @@
 import React, { useEffect } from "react";
 import "./HomePage.css";
-import AboutSection from "./AboutSection/AboutSection";
+import AboutSection from "../AboutSection/AboutSection";
+import WeatherSection from "./WeatherSection/WeatherSection";
+import ClockSection from "./ClockSection/ClockSection";
+import ContactSection from "./ContactSection/ContactSection";
 // import styled, { keyframes } from 'styled-components';
 
 function HomePage() {
@@ -11,7 +14,9 @@ function HomePage() {
     return (
         <>
             <div className="mainPage">
-                <div className="about">{<AboutSection/>}</div>
+                <div className="clock">{<ClockSection/>}</div>
+                <div className="weather">{<WeatherSection/>}</div>
+                <div className="contact">{<ContactSection/>}</div>
             </div>
         </>
     )

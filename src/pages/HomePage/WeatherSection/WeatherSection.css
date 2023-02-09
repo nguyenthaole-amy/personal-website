@@ -1,0 +1,17 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 6vh 5vw 6vh 5vw;
+    width: 90vw;
+    height: 76vh;
+    background: #c5f767;
+}
+
+.weather{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+    white-space: pre-line;
+}

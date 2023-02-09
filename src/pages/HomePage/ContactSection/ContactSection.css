@@ -1,0 +1,25 @@
+.contact-container {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    flex-direction: column;
+    text-align: center;
+    margin: 1vh 5vw 6vh 5vw;
+    padding-bottom: 2vh;
+    width: 30vw;
+    height: 20vh;
+    background: #c5f767;
+}
+
+.logo {
+    height: 10vh;
+}
+
+.contact-info{
+    overflow: hidden;
+}
+
+.contact-name{
+    font-weight: 600;
+    overflow-y: hidden !important;
+}

@@ -38,6 +38,7 @@
     ]
   },
   "devDependencies": {
+    "dotenv": "^16.0.3",
     "url-loader": "^4.1.1"
   }
 }

@@ -7,13 +7,19 @@ export const NavLinks = [
     },
     {
         title: "About",
-        url: "/home#about",
+        url: "/about",
         cName: "nav-links",
         target: "",
     },
     {
         title: "Contact",
         url: "/home#contact",
+        cName: "nav-links",
+        target: "",
+    },
+    {
+        title: "Projects",
+        url: "/projects",
         cName: "nav-links",
         target: "",
     },

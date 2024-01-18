@@ -9,13 +9,13 @@ import ProjectSection from "./pages/HomePage/ProjectSection/ProjectSection";
 function PagesWNav() {
     return (
         <React.Fragment>
-            <Nav/>
+            <Nav />
             <Routes>
-                <Route path="/home" element={<HomePage />}></Route>
+                <Route path="/" element={<HomePage />}></Route>
                 <Route path="/about" element={<AboutSection />}></Route>
-                <Route path="/projects" element={<ProjectSection/>}></Route>
+                <Route path="/projects" element={<ProjectSection />}></Route>
             </Routes>
-            <Footer/>
+            <Footer />
         </React.Fragment>
     );
 }

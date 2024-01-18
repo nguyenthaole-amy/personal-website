@@ -1,7 +1,7 @@
 export const NavLinks = [
     {
         title: "Home",
-        url: "/home",
+        url: "/",
         cName: "nav-links",
         target: "",
     },
@@ -13,7 +13,7 @@ export const NavLinks = [
     },
     {
         title: "Contact",
-        url: "/home#contact",
+        url: "/#contact",
         cName: "nav-links",
         target: "",
     },
@@ -25,7 +25,7 @@ export const NavLinks = [
     },
     {
         title: "Resume",
-        url: "https://drive.google.com/file/d/1FIlo7kW_sLgErog84mkymxXU2GWTWd2l/view?usp=sharing",
+        url: "https://drive.google.com/file/d/1Iku_rS8w3bi8l6rDIoo86u6tDgorTkx1/view?usp=sharing",
         cName: "nav-links",
         target: "_blank",
     }

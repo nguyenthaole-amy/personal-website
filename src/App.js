@@ -9,7 +9,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        {/*<Route path="/" element={<LeadingPage />} />*/}
+        {/* <Route path="/" element={<LeadingPage />} /> */}
         <Route path="*" element={<PagesWNav />}></Route>
       </Routes>
     </BrowserRouter>

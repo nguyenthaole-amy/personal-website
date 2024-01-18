@@ -1,4 +1,4 @@
-.project-container{
+.project-container {
     display: grid;
     grid-template-columns: repeat(6, auto);
     align-items: center;
@@ -8,19 +8,19 @@
     height: 82vh;
 }
 
-.projects-list{
+.projects-list {
     overflow: auto;
     list-style: none;
 }
 
-.proj{
+.proj {
     text-align: center;
 }
 
-.title{
-    font-size: 1.5rem;
+.title {
+    font-size: 2.5rem;
 }
 
-.icon{
-    height: 50vh;
+.icon {
+    height: 40vh;
 }

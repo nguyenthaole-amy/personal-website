@@ -14,9 +14,9 @@ function HomePage() {
     return (
         <>
             <div className="mainPage">
-                <div className="clock">{<ClockSection/>}</div>
-                <div className="weather">{<WeatherSection/>}</div>
-                <div className="contact">{<ContactSection/>}</div>
+                <div className="clock">{<ClockSection />}</div>
+                <div className="weather">{<WeatherSection />}</div>
+                <div id="contact">{<ContactSection />}</div>
             </div>
         </>
     )

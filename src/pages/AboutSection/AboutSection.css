@@ -1,4 +1,4 @@
-.about-container{
+.about-container {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -20,9 +20,12 @@
     font-size: 1.2rem;
 }
 
-.pic{
+.pic {
     display: block;
     height: 30vh;
+    width: 30vh;
+    object-fit: cover;
+    object-position: 100% 100%;
     margin: 0 auto;
     padding-bottom: 2vh;
 }

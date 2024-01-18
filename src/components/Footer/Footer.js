@@ -5,7 +5,7 @@ import "./Footer.css";
 function Footer() {
     return (
         <footer>
-            <div>© Nguyen Thao (Amy) Le 2023</div>
+            <div>© Nguyen Thao (Amy) Le 2024</div>
         </footer>
     )
 }

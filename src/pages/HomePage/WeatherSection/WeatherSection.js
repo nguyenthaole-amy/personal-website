@@ -22,19 +22,24 @@ function WeatherSection() {
             setLat(42.2584)
         });
 
-        fetch(`http://api.openweathermap.org/data/2.5/weather/?lat=${lat}&lon=${long}&units=metric&APPID=${api_key}`)
+        fetch(`https://api.openweathermap.org/data/2.5/weather/?lat=${lat}&lon=${long}&units=metric&APPID=${api_key}`)
             .then(res => res.json()).then(result => {
-                setData(result)
-                setWeather(
-                    `You are in ${result.name}, ${result.sys.country}.
-                            Description: ${result.weather[0].description}. 
-                            Current Temperature: ${result.main.temp}\u00B0C. 
-                            Feels like: ${result.main.feels_like}\u00B0C.`
-                )
-                console.log(result)
+                // console.log(result.cod)
+                if (result.cod !== 200) {
+                    setData("Loading...")
+                    setWeather("Loading...")
+                } else {
+                    setData(result)
+                    setWeather(
+                        `You are in ${result.name}, ${result.sys.country}.
+                                Description: ${result.weather[0].description}. 
+                                Current Temperature: ${result.main.temp}\u00B0C. 
+                                Feels like: ${result.main.feels_like}\u00B0C.`
+                    )
+                }
             }).catch((e) => console.log(e))
-        console.log(data);
-        console.log(weather);
+        // console.log(data);
+        // console.log(weather);
     }, [weather, lat, long, data, api_key]);
 
     return (

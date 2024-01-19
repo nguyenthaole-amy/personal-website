@@ -5,7 +5,7 @@ import "./ContactSection.css";
 function ContactSection() {
     return (
         <div className="contact-container">
-            <img className="logo" src={logo} alt="logo" height="50px" />
+            {/* <img className="logo" src={logo} alt="logo" height="50px" /> */}
             <div className="contact-name">Amy Le</div>
             <div className="contact-info">
                 Email: le46t@mtholyoke.edu <br />
